@@ -603,3 +603,160 @@ footer .copyright {
         gap: 50px;
     }
 }
+/* ================================
+   DARK MODE
+================================ */
+
+body.dark-mode {
+    background: #111113;
+    color: #f5f5f5;
+}
+
+body.dark-mode header {
+    background: #18181b;
+    border-color: #2c2c30;
+}
+
+body.dark-mode nav a {
+    color: #cccccc;
+}
+
+body.dark-mode nav a:hover {
+    color: #ffffff;
+}
+
+body.dark-mode .logo span {
+    color: #aaaaaa;
+}
+
+body.dark-mode .hero {
+    background: #18181b;
+}
+
+body.dark-mode .hero h1 {
+    color: #ffffff;
+}
+
+body.dark-mode .hero h1 span {
+    color: #aaaaaa;
+}
+
+body.dark-mode .description {
+    color: #aaaaaa;
+}
+
+body.dark-mode .hero-box {
+    background: #222225;
+}
+
+body.dark-mode .cube {
+    background: #f5f5f5;
+    color: #18181b;
+    box-shadow: 20px 20px 0 #333333;
+}
+
+body.dark-mode .products-section {
+    background: #111113;
+}
+
+body.dark-mode .products-section h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .section-description {
+    color: #999999;
+}
+
+body.dark-mode .product-card {
+    background: #18181b;
+    border-color: #2c2c30;
+}
+
+body.dark-mode .product-card h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .product-card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .product-image {
+    background: #242428;
+    color: #888888;
+}
+
+body.dark-mode .product-info p {
+    color: #999999;
+}
+
+body.dark-mode .price {
+    color: #ffffff;
+}
+
+body.dark-mode .how-section {
+    background: #18181b;
+}
+
+body.dark-mode .how-section h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .step h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .step p {
+    color: #999999;
+}
+
+body.dark-mode .contact-section {
+    background: #111113;
+}
+
+body.dark-mode .contact-section h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .contact-section p {
+    color: #999999;
+}
+
+body.dark-mode footer {
+    background: #18181b;
+    border-color: #2c2c30;
+}
+
+
+/* ================================
+   BUTON DARK MODE
+================================ */
+
+.theme-button {
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid #dddddd;
+    background: #f5f5f5;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.2s;
+}
+
+.theme-button:hover {
+    transform: rotate(15deg);
+}
+
+body.dark-mode .theme-button {
+    background: #27272a;
+    border-color: #444444;
+    color: white;
+}
